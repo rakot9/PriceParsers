@@ -1,0 +1,1 @@
+rar a -r -xCreateArchiveBackUp.bat -xCopyNonArchivedBackUp.bat -xhelp.rar -xbackup backup/%date%.rar ./

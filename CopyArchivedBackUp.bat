@@ -1,0 +1,1 @@
+xcopy backup\%date%.rar E:\PriceParsers\backup\ /I
