@@ -50,4 +50,9 @@ class Proxies extends \yii\db\ActiveRecord
             'for_city' => 'For City',
         ];
     }
+
+    static public function cleanTable()
+    {
+        Yii::$app->db->createCommand()->truncateTable('pp_proxies');
+    }
 }
