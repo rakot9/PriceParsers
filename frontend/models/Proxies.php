@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use Yii;
 
@@ -42,12 +42,12 @@ class Proxies extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID прокси',
-            'ip' => 'IP-адрес',
-            'country' => 'Страна',
-            'city' => 'Город',
-            'is_show' => 'Использовать прокси',
-            'for_city' => 'Используется для города',
+            'id' => 'ID',
+            'ip' => 'Ip',
+            'country' => 'Country',
+            'city' => 'City',
+            'is_show' => 'Is Show',
+            'for_city' => 'For City',
         ];
     }
 }

@@ -5,8 +5,8 @@ use common\interfaces\iParsers;
 
 class Parser implements iParsers{
 
-    public function test()
+    public function parse()
     {
-        echo "implement interface method test";
+        echo "implement interface method test \r\n";
     }
 }

@@ -3,5 +3,10 @@
 namespace common\interfaces;
 
 interface iParsers{
-    public function test();
+    /**
+     * Парсинг
+     * @return mixed
+     */
+    public function parse();
+
 }
