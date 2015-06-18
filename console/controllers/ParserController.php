@@ -11,8 +11,6 @@ class ParserController extends Controller{
     {
         $p = new Parser();
 
-        Log::log("testing ParserController", "ParserController", 1);
-
-        echo "Ok get parsers " . date('Y-m-d h:i:s') . "\r\n";
+        Log::log("testing ParserController", "ParserController/actionGetParsers", 2);
     }
 }
