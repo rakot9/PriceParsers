@@ -53,6 +53,6 @@ class Proxies extends \yii\db\ActiveRecord
 
     static public function cleanTable()
     {
-        Yii::$app->db->createCommand()->truncateTable('pp_proxies');
+        Yii::$app->db->createCommand()->truncateTable(self::tableName())->execute();
     }
 }
